@@ -17,10 +17,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.myCab.letseat"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "android": {
+      "package": "me.app_myCab.app"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }
